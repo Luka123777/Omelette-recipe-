@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+.container{
+    background-color: whitesmoke;
+    position: relative;
+    width: 500px;
+    margin: auto;
+    padding-left: 1.65rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 4rem;
+    padding-top: 0.75rem;
+}
+.IMGomelette img {
+    position:relative;
+    border-radius: 1rem;
+    width: 450px;
+    height: 225px;
+    
+}
+.preparation{
+    background-color: rgb(249, 225, 229);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-position:inside;
+    padding-left: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.90rem;
+    line-height:1.90rem;
+    border-radius: 1rem;
+    margin-right: -1.5rem;
+}
+.container h3{
+    color: brown;
+}
+.ul1{
+    padding-left: 1.90rem;
+    line-height: 1.90rem;
+}
+.ol1{
+    padding-left: 1.80rem;
+    font-size: medium;
+    
+}
+.ol1 li::marker{
+    color: brown;
+}
+.table1{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.tr1, .tr2, .tr3{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+.tr4{
+   padding: 10px;
+   text-align: left; 
+}
+.table1 td{
+    color: brown;
+    font-weight: bold;
+}
+.table1 caption{
+    text-align: left;
+}
+.preparation h3{
+    color:darkmagenta;
+}
+.table1 th{
+    font-weight: lighter;
+}
+
+
